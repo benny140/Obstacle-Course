@@ -523,9 +523,9 @@ GameObject:
   - component: {fileID: 873004334}
   - component: {fileID: 873004333}
   - component: {fileID: 873004332}
-  - component: {fileID: 873004336}
   - component: {fileID: 873004337}
   - component: {fileID: 873004338}
+  - component: {fileID: 873004339}
   m_Layer: 0
   m_Name: Player (Dodgy)
   m_TagString: Player
@@ -619,19 +619,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &873004336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873004331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a0edfdd415b8804eb2a8397a31b4329, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
 --- !u!54 &873004337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -671,6 +658,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7f7c4f30202ea4684d8ee7335fa5dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &873004339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873004331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0edfdd415b8804eb2a8397a31b4329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
